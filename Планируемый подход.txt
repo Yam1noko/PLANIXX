@@ -1,0 +1,21 @@
+User Message
+    ↓
+Context Builder
+    ↓
+LLM Understanding
+    ↓
+Draft Task Builder
+    ↓
+Knowledge Enrichment
+    ↓
+Missing Info Detection
+    ↓
+Clarification Dialogue
+    ↓
+Draft Preview
+    ↓
+User Confirmation / Editing
+    ↓
+Final Task Object
+    ↓
+Save To DB

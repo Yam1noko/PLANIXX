@@ -1,0 +1,210 @@
+{
+  "user_id": "user_1",
+  "planning_start": "2026-04-29T08:00:00",
+  "planning_end": "2026-04-29T20:00:00",
+  "slot_minutes": 15,
+  "tasks": [
+    {
+      "id": "fixed-medication",
+      "title": "Take medication",
+      "duration_minutes": 15,
+      "priority": 5,
+      "is_fixed": true,
+      "fixed_start": "2026-04-29T08:00:00",
+      "is_mandatory": true,
+      "category": "home",
+      "energy_required": "low"
+    },
+    {
+      "id": "fixed-team-sync",
+      "title": "Team sync",
+      "duration_minutes": 30,
+      "priority": 5,
+      "is_fixed": true,
+      "fixed_start": "2026-04-29T09:30:00",
+      "is_mandatory": true,
+      "category": "work",
+      "energy_required": "medium"
+    },
+    {
+      "id": "architecture-review",
+      "title": "Architecture review draft",
+      "duration_minutes": 120,
+      "priority": 5,
+      "deadline": "2026-04-29T12:30:00",
+      "preferred_windows": [
+        {
+          "start": "2026-04-29T08:15:00",
+          "end": "2026-04-29T12:30:00"
+        }
+      ],
+      "is_mandatory": true,
+      "category": "work",
+      "energy_required": "high"
+    },
+    {
+      "id": "client-proposal",
+      "title": "Client proposal package",
+      "duration_minutes": 90,
+      "priority": 5,
+      "earliest_start": "2026-04-29T10:00:00",
+      "latest_end": "2026-04-29T17:00:00",
+      "preferred_windows": [
+        {
+          "start": "2026-04-29T10:00:00",
+          "end": "2026-04-29T12:30:00"
+        },
+        {
+          "start": "2026-04-29T14:00:00",
+          "end": "2026-04-29T16:30:00"
+        }
+      ],
+      "allowed_windows": [
+        {
+          "start": "2026-04-29T10:00:00",
+          "end": "2026-04-29T12:30:00"
+        },
+        {
+          "start": "2026-04-29T13:30:00",
+          "end": "2026-04-29T17:00:00"
+        }
+      ],
+      "is_mandatory": true,
+      "category": "work",
+      "energy_required": "high"
+    },
+    {
+      "id": "study-ml",
+      "title": "Machine learning course",
+      "duration_minutes": 90,
+      "priority": 4,
+      "earliest_start": "2026-04-29T14:00:00",
+      "latest_end": "2026-04-29T20:00:00",
+      "preferred_windows": [
+        {
+          "start": "2026-04-29T18:30:00",
+          "end": "2026-04-29T20:00:00"
+        }
+      ],
+      "category": "study",
+      "energy_required": "high"
+    },
+    {
+      "id": "tax-documents",
+      "title": "Prepare tax documents",
+      "duration_minutes": 75,
+      "priority": 4,
+      "deadline": "2026-04-29T18:00:00",
+      "allowed_windows": [
+        {
+          "start": "2026-04-29T13:30:00",
+          "end": "2026-04-29T17:30:00"
+        }
+      ],
+      "category": "home",
+      "energy_required": "medium"
+    },
+    {
+      "id": "workout",
+      "title": "Workout",
+      "duration_minutes": 60,
+      "priority": 3,
+      "latest_end": "2026-04-29T20:00:00",
+      "preferred_windows": [
+        {
+          "start": "2026-04-29T19:00:00",
+          "end": "2026-04-29T20:00:00"
+        }
+      ],
+      "allowed_windows": [
+        {
+          "start": "2026-04-29T16:00:00",
+          "end": "2026-04-29T20:00:00"
+        }
+      ],
+      "category": "sport",
+      "energy_required": "medium"
+    },
+    {
+      "id": "groceries",
+      "title": "Buy groceries",
+      "duration_minutes": 45,
+      "priority": 3,
+      "allowed_windows": [
+        {
+          "start": "2026-04-29T13:30:00",
+          "end": "2026-04-29T14:30:00"
+        },
+        {
+          "start": "2026-04-29T19:00:00",
+          "end": "2026-04-29T20:00:00"
+        }
+      ],
+      "category": "errand",
+      "energy_required": "low"
+    },
+    {
+      "id": "inbox-zero",
+      "title": "Process inbox",
+      "duration_minutes": 30,
+      "priority": 2,
+      "earliest_start": "2026-04-29T13:30:00",
+      "latest_end": "2026-04-29T17:30:00",
+      "category": "work",
+      "energy_required": "low"
+    },
+    {
+      "id": "call-bank",
+      "title": "Call bank support",
+      "duration_minutes": 30,
+      "priority": 2,
+      "allowed_windows": [
+        {
+          "start": "2026-04-29T12:30:00",
+          "end": "2026-04-29T13:00:00"
+        }
+      ],
+      "category": "errand",
+      "energy_required": "low"
+    }
+  ],
+  "busy_intervals": [
+    {
+      "title": "Company all-hands",
+      "start": "2026-04-29T09:00:00",
+      "end": "2026-04-29T09:30:00"
+    },
+    {
+      "title": "Lunch",
+      "start": "2026-04-29T12:30:00",
+      "end": "2026-04-29T13:30:00"
+    },
+    {
+      "title": "School pickup",
+      "start": "2026-04-29T17:30:00",
+      "end": "2026-04-29T18:15:00"
+    },
+    {
+      "title": "Commute",
+      "start": "2026-04-29T18:15:00",
+      "end": "2026-04-29T19:00:00"
+    }
+  ],
+  "available_windows": [
+    {
+      "start": "2026-04-29T08:00:00",
+      "end": "2026-04-29T12:30:00"
+    },
+    {
+      "start": "2026-04-29T13:30:00",
+      "end": "2026-04-29T20:00:00"
+    }
+  ],
+  "settings": {
+    "allow_task_splitting": true,
+    "min_split_part_minutes": 30,
+    "min_break_minutes": 0,
+    "max_daily_planned_minutes": 480,
+    "max_schedule_variants": 10
+  }
+}
